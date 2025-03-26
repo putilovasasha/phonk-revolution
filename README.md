@@ -23,9 +23,9 @@
 2. **npm** (устанавливается с Node.js) или **yarn** (npm install -g yarn)
 3. **Git** ([скачать](https://git-scm.com/downloads))
 
-   **Клонирование репозитория**: git clone https://github.com/putilovasaha/phonk-revolution.git
-   **Установка зависимостей**: npm/yarn install
-   **Запуск**: npm run dev или yarh dev
+**Клонирование репозитория**: git clone https://github.com/putilovasaha/phonk-revolution.git  
+**Установка зависимостей**: npm/yarn install  
+**Запуск**: npm run dev или yarh dev  
    
    
    
