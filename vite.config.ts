@@ -24,6 +24,7 @@ const parseTsConfigPaths = (
 };
 
 export default defineConfig({
+  base: "/phonk-revolution/",
   plugins: [react()],
   resolve: {
     alias: parseTsConfigPaths(tsconfig.compilerOptions.paths),
