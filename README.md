@@ -11,10 +11,10 @@
 
 
 ## FRONTEND–STACK:
-— HTML 
-— CSS
-— TS/JS
-— React
-— Vite
+1. HTML 
+2. CSS
+3. TS/JS
+4. React
+5. Vite
 
 
