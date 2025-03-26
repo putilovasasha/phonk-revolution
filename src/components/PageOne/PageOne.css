@@ -1,0 +1,149 @@
+.yellow-banner {
+  position: relative;
+  width: 100%;
+  background-color: #eaff00;
+  padding: 40px;
+  margin-top: -100px;
+  z-index: 50;
+}
+
+.yellow-banner-content {
+  margin-top: 0;
+  padding-top: 0;
+  top: -67px;
+  position: relative;
+  left: 42px;
+  color: #000;
+  letter-spacing: 20px;
+  font-family: "Russo one", sans-serif;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.text-block {
+  margin-top: 0;
+  padding-top: 0;
+  top: -77px;
+  position: relative;
+  left: 42px;
+  color: #eaff00;
+  letter-spacing: 20px;
+  font-family: "Russo one", sans-serif;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.genre-cards-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+  position: relative;
+}
+
+.genre-cards {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.genre-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  background-color: #000;
+  width: 300px; /* Фиксированная ширина карточки */
+  min-height: 400px; /* Минимальная высота */
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 20px;
+  flex-shrink: 0;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.genre-image {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.genre-description {
+  position: absolute;
+  top: 65%; /* Начинается снизу карточки */
+  left: 0;
+  right: 0;
+  color: #fcfcfc;
+  padding: 20px;
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: normal; /* Разрешаем многострочный текст */
+  max-height: 70%; /* Ограничиваем высоту */
+}
+
+.genre-cards-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+/* Стили для стрелок */
+/* Контейнер для стрелок */
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Стили стрелок */
+.carousel-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: -40px;
+  padding: 5px 15px;
+  transition: all 0.3s ease;
+}
+
+.arrow-icon {
+  font-size: 60px;
+  color: #000; /* Черный цвет по умолчанию */
+  transition: color 0.3s ease;
+}
+
+.carousel-arrow:hover .arrow-icon {
+  color: #fff; /* Белый при наведении */
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .arrow-icon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .genre-card {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-right: 15px;
+  }
+  .genre-image {
+    height: 160px;
+  }
+}

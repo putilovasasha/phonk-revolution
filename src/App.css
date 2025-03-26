@@ -1,0 +1,14 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
