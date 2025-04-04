@@ -7,7 +7,7 @@
 
 ## DEMO:
 
-Посомтреть можно тут: https://putilovasasha.github.io/phonk-revolution/
+Посмотреть можно тут: https://putilovasasha.github.io/phonk-revolution/
 
 
 ## FRONTEND–STACK:
